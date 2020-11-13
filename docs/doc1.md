@@ -10,7 +10,7 @@ import CodeBlock from '@theme/CodeBlock';
 | Markdown | Less      | Pretty     |
 | -------- | --------- | ---------- |
 | _Still_  | `renders` | **nicely** |
-| 1        | 2         | <CodeBlock>{`sum(rate(grpc_client_msg_received_total{component="tsbd", grpc_type="server_stream"}[30s])) by (cluster_name)`}</CodeBlock>|
+| 1        | 2         | <CodeBlock>sum(rate(grpc_client_msg_received_total{component="tsbd", grpc_type="server_stream"}[30s])) by (cluster_name)</CodeBlock>|
 
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
